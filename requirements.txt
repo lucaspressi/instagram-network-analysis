@@ -1,0 +1,33 @@
+"""
+Instagram Network Analysis - Requirements File
+
+This file lists all the Python packages required to run the Instagram Network Analysis tool.
+"""
+
+# Core dependencies
+requests>=2.25.0
+pandas>=1.2.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+networkx>=2.5.0
+aiohttp>=3.7.0
+asyncio>=3.4.3
+tqdm>=4.50.0
+
+# Data processing
+scikit-learn>=0.24.0
+
+# Visualization
+plotly>=4.14.0
+
+# Google Cloud Storage (optional)
+google-cloud-storage>=1.35.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Utilities
+python-dateutil>=2.8.1
+pytz>=2020.4
